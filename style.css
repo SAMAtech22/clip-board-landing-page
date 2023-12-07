@@ -1,0 +1,274 @@
+body{
+   background-color: whitesmoke;
+   font-size: 18px;
+   font-family: Bai Jamjuree;
+}
+
+@media screen and (max-width: 600px){
+   .download p{
+      display: ;
+   }
+   .img-one {
+      display: block;
+   }
+
+   img{
+      max-width: 600px;
+   }
+
+   .advert img{
+      display: block;
+      
+      padding: 20px 0px 10px 120px;
+   }
+
+   .icon div h2{
+      display: block;
+   }
+
+   .logo🐱 {
+      display: block;
+      padding-bottom:;
+   }
+
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+ }
+.attribution a { 
+   color: hsl(228, 45%, 44%);
+ }
+main{
+   max-width: 1440px;
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   gap: 20px;
+   margin: 0 auto;
+   font-size:  18px;
+
+}
+
+.top-section{
+   grid-column: 1 / 13;
+   grid-row: 1 / 2;
+   text-align: center;
+}
+
+.top-section h2{
+   font-size: 40px;
+}
+.top-section span{
+   width: 300px;
+}
+.top-section span{
+   color: rgb(131, 124, 124);
+}
+
+.download{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+   margin-top: 15px;
+}
+
+.download .b-one {
+   padding: 10px 30px;
+   text-align: center;
+   justify-self: end;
+   border-radius: 15px;
+   color: white;
+   background-color:  hsl(171, 66%, 44%);
+}
+
+
+.download .b-two{
+   padding: 10px 30px;
+   text-align: center;
+   justify-self: start;
+   border-radius: 15px;
+   color: white;
+   background-color: hsl(233, 100%, 69%);
+}
+
+.second-heading{
+   grid-column: 1 / 13;
+   grid-row: 2 / 3;
+   text-align: center;
+   justify-self: center;
+   margin-bottom: 20px;
+}
+
+.second-heading h2{
+   font-size: 30px;
+}
+
+.second-heading span{
+   color:  rgb(131, 124, 124);
+}
+
+.img-one{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 70px;
+   grid-column: 1 / 13;
+   grid-row: 3/4;
+   margin-bottom: 30px;
+}
+
+.img-one img{
+   justify-self: end;
+}
+
+.img-one div{
+   margin-top: 70px;
+   padding: 10px 40px;
+}
+
+.img-one span{
+   color:  rgb(131, 124, 124);
+}
+
+.access{
+   grid-column: 1/13;
+   grid-row: 4/5;
+   text-align: center;
+}
+
+.access div{
+   margin-bottom: 40px;
+}
+
+.access div span{
+   font-size: 16px;
+}
+
+.access img{
+   justify-content: center;
+}
+.access h2{
+   font-size: 30px;
+}
+
+.access span{
+   color:  rgb(131, 124, 124);
+}
+
+.icon-flex{
+   grid-column: 1/ 13;
+   grid-row: 5/6 ;
+   text-align: center;
+   justify-self: center;
+   margin-top: 50px;
+}
+.icon{
+   display: grid;
+   grid-template-columns:repeat(3, 1fr);
+   gap: 20px;
+   justify-content: center;
+}
+
+.icon-flex > svg{
+   margin-top: 20px;
+}
+.icon-flex span{
+   color:  rgb(131, 124, 124);
+}
+
+.advert{
+   grid-column: 1/13;
+   grid-row: 7/8;
+   text-align: center;
+   padding-left: 30px;
+   
+}
+
+.advert img{
+   padding-right: 100px;
+}
+
+.clip{
+   grid-column: 1/13;
+   grid-row: 8/9;
+   text-align: center;
+}
+.clip h2{
+   font-size: 30px;
+   font-weight: 30px;
+}
+.clip span{
+    color:  rgb(131, 124, 124);
+}
+
+.download-two{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+   margin-top: 30px;
+}
+
+.bd-one{
+   padding: 10px 30px;
+   text-align: center;
+   justify-self: end;
+   border-radius: 15px;
+   color: white;
+   background-color:  hsl(171, 66%, 44%);
+}
+
+.bd-two{
+   border: 1px solid white;
+   padding: 10px 30px;
+   text-align: center;
+   justify-self: start;
+   border-radius: 15px;
+   color: white;
+   background-color: hsl(233, 100%, 69%);
+   
+}
+
+footer{
+   grid-column: 1/13;
+   grid-row: 9/10;
+   text-align: center;
+}
+
+.logo-fac{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   background-color: rgb(241, 237, 237);
+   padding: 30px 10px;
+   margin-top: 40px;
+}
+
+.logo{
+   justify-self: center;
+   align-self: start;
+   padding-right: 100px;
+}
+.info{
+   margin-top: 20px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   justify-self: start;
+   color: rgb(131, 124, 124);
+}
+.info a{
+   text-decoration: none;
+   color: rgb(131, 124, 124);
+}
+.social-logo{
+   justify-self: center;
+   align-self: center;
+   padding-left: 40px;
+}
+
+.social-logo svg{
+   padding-right: 20px;
+}
+
+
+
+
+
